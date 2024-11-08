@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(250, 233, 166);
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 160vh;
+}
+
+
+.contain {
+    background: white;
+    width: 35%;
+    overflow: hidden;
+    padding: 20px; 
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.contain > img{
+    border-radius: 8px;
+    height:250px;
+    width:100%;
+    background-image: cover;
+}
+
+
+.contain2 {
+    background-color: rgb(253, 202, 211);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+
+.contain2, ul li::marker{
+    color:rgb(170, 7, 75);/*set bullet point color to pink*/
+    font-size: 1.2em;/*increase bulet point size*/ 
+    list-style-position: inside;
+}
+
+
+.contain3{
+    font-size:12px;
+    Line-height:1.5;
+    text-align: justify;
+    list-style-position: inside;
+}
+
+.contain3 > ul li::marker{
+    color:rgb(184, 115, 11, 0.747);
+    font-size: 1.2em;
+}
+
+
+
+.contain4{
+    padding: 10px;
+    font-size:12px;
+    line-height:1.5;
+    text-align: justify;
+    
+}
+
+.contain4 > ol li::marker{
+    color:rgb(184, 115, 11, 0.747);
+    font-size: 1.2em;
+    list-style-position:inside;
+    padding:
+}
+
+
+
+table, td{
+    line-height:1.5;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    border-collapse: collapse;
+    padding: 2px;      
+}
+
+
